@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/CSS" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Revalia&family=Roboto&display=swap" rel="stylesheet">
+    <script src="jquery-3.5.1.min.js">
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class="header_logo">
+                    <h1>&#9997</h1>
+                </div>
+
+                <div class="header_menu">
+                    <a href="#intro" class="menu_item">ГЛAВНОE</a>
+                    <a href="#about" class="menu_item">ОБ АВТОРЕ</a>
+                    <a href="#projects" class="menu_item">РАБОТЫ</a>
+                    <a href="#process" class="menu_item">ПРОЦЕССЫ</a>
+                    <a href="#send" class="menu_item">КОНТАКТЫ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro" id="intro">
+            <div class="intro_left">
+                <img src="intro_logo.svg" alt="logo" class="intro_img">
+            </div>
+            <div class="intro_right">
+                <h1 class="intro_title">
+                    Дизайн и верстка
+                </h1>
+                <p class="intro_text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate neque, ut harum laborum eaque
+                    non perferendis numquam ratione? Nulla fuga possimus quasi, autem quo at culpa odio error! Qui,
+                    expedita.
+                </p>
+                <button id="myButton" class="intro_button">НАПИСАТЬ МНЕ</button>
+                <div id="myModal" class="modal">
+                    <div id="myContent" class="modal_content">
+                        <div id="myClose" class="close">&times;</div>
+                        <div class="send_wrapper">
+                            <h1 class="send_title">Хотите вейб сайт?</h1>
+                            <form method="post"
+                                action="https://api.achieveme.live/api/FormFeedbacks/690da5b7-276e-4f3c-854a-b8c4ded927cd">
+                                <div class="send_form">
+                                    <div>
+                                        <input type="text" name="name" class="form1 formstyle"
+                                            placeholder="Ведите свое имя">
+                                        <input type="email" name="email" class="form2 formstyle"
+                                            placeholder="Ваш e-mail">
+                                    </div>
+
+                                    <textarea cols="30" name="message" rows="10" class="form3 formstyle"
+                                        placeholder="Сообщение"></textarea>
+
+                                    <button id="" class="intro_button">ОТПРАВИТЬ</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="about" id="about">
+            <div class="wrapper">
+                <div class="about_wrapper">
+                    <div class="about_block">
+                        <h2 class="about_title">Обо мне</h2>
+
+                        <p class="about_text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto eos doloremque ex vero.
+                            Quidem sunt voluptatum eius. Quisquam exercitationem molestiae, sequi quas nihil odit quae
+                            obcaecati eaque, laudantium doloribus aperiam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="project" id="project">
+            <div class="wrapper">
+                <div class="project_wrapper">
+                    <div class="project_block">
+                        <img src="numbers_item.svg" alt="logo" class="project_img">
+                        <img src="numbers_item.svg" alt="logo" class="project_img">
+                        <img src="numbers_item.svg" alt="logo" class="project_img">
+                        <img src="numbers_item.svg" alt="logo" class="project_img">
+                        <img src="numbers_item.svg" alt="logo" class="project_img">
+                        <img src="numbers_item.svg" alt="logo" class="project_img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="wrapper">
+                <div class="skills_wrapper">
+                    <div class="skills_left">
+                        <h3 class="skills_title">Мои навыки</h3>
+                        <h4 class="skill skill_1">Visual studio code</h4>
+                        <h4 class="skill skill_2">unity </h4>
+                        <h4 class="skill skill_2">Clickteam fusion </h4>
+                    </div>
+                    <div class="skills_right">
+                        <img src="my_photo.svg" alt="MY_PHOTO" class="skills_img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="process" id="process">
+            <div class="wrapper">
+                <div class="process_wrapper">
+                    <div class="process_block">
+                        <h1 class="process_title">
+                            Как я работаю
+                        </h1>
+                        <p class="process_text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus esse repellat pariatur
+                            odio laboriosam. Aliquid repellat deserunt pariatur nostrum aut necessitatibus adipisci
+                            placeat ea nam rerum commodi numquam, quidem voluptas.
+                        </p>
+                    </div>
+                    <video src="verstka.mp4" class="process_video" controls="controls"></video>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="gallery">
+                <div class="gallery_str">
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery1.png" alt="Картинка1" class="gallery_img">
+                    </a>
+                    <a href="gallery2.png" class="lightzoom">
+                        <img src="gallery2.png" alt="Картинка2" class="gallery_img">
+                    </a>
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery1.png" alt="Картинка1" class="gallery_img">
+                    </a>
+                    <a href="gallery2.png" class="lightzoom">
+                        <img src="gallery2.png" alt="Картинка2" class="gallery_img">
+                    </a>
+                </div>
+                <div class="gallery_str">
+                    <a href="gallery2.png" class="lightzoom">
+                        <img src="gallery2.png" alt="Картинка1" class="gallery_img">
+                    </a>
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery1.png" alt="Картинка2" class="gallery_img">
+                    </a>
+                    <a href="gallery2.png" class="lightzoom">
+                        <img src="gallery2.png" alt="Картинка1" class="gallery_img">
+                    </a>
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery1.png" alt="Картинка2" class="gallery_img">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="send" id="send">
+            <div class="wrapper">
+                <div class="send_wrapper">
+                    <h1 class="modal_title">
+                        Хотите вейб сайт?
+                    </h1>
+                    <p class="send_text">Идите к учи ру они вас научат всему >3 </p>
+                    <form method="post"
+                        action="https://api.achieveme.live/api/FormFeedbacks/690da5b7-276e-4f3c-854a-b8c4ded927cd">
+                        <div class="send_form">
+                            <div>
+                                <input type="text" name="name" class="form1 formstyle" placeholder="Ведите свое имя">
+                                <input type="email" name="email" class="form2 formstyle" placeholder="Ваш e-mail">
+                            </div>
+
+                            <textarea cols="30" name="message" rows="10" class="form3 formstyle"
+                                placeholder="Сообщение"></textarea>
+
+                            <button class="intro_button">ОТПРАВИТЬ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer_wrapper">
+                <div class="left_footer">
+                    <h3 class="footer_title">Мамонтов Матвей</h3>
+                    <p class="footer_text">&copy 2020. Все права защищены.</p>
+                </div>
+                <div class="right_footer">
+                    <img src="vk-logo.png" alt="VK" class="footer_img">
+                    <img src="vk-logo.png" alt="VK" class="footer_img">
+                    <img src="vk-logo.png" alt="VK" class="footer_img">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="lightzoom/style.css">
+    <script src="lightzoom/lightzoom.js"></script>
+
+    <script>jQuery('.lightzoom').lightzoom({ speed: 400, viewTitle: true, isOverlayClickClosing: true });</script>
+    <script src="myscript.js"></script>
+</body>
+
+</html>
